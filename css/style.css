@@ -13,6 +13,7 @@ header{
     color: white;
     text-align: right;
     padding: 10px;
+    height: 70px;
 
 }
 
@@ -42,9 +43,8 @@ header > .button-grey{
 
 .card{
     position: relative;
-    height: 200px;
-    width: 280px;
-    margin-bottom: 15px;
+    width: 250px;
+    height: 150px;
 }
 
 .name{
