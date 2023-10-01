@@ -1,3 +1,5 @@
+/* --- GENERAL --- */
+
 *{
     margin: 0;
     padding: 0;
@@ -6,7 +8,10 @@
 
 body{
     background-color: black;
+    font-family: sans-serif;
 }
+
+/* --- HEADER --- */
 
 header{
     background-color: black;
@@ -29,6 +34,14 @@ header > .button-grey{
     background-color: #4a4a4a;
     border-radius: 5px;
     padding: 4px;
+
+}
+
+/* --- MAIN --- */
+
+main {
+    height: calc(100vh - 140px);
+    overflow-y: auto;
 
 }
 
@@ -57,13 +70,72 @@ header > .button-grey{
     padding: 6px;
 }
 
-main {
-    height: calc(100vh - 140px);
-    overflow: auto;
 
-}
+/* --- FOOTER --- */
+
+
 
 footer{
     color: white;
-    height: 70px;
+    height: 65px;
+}
+
+.container-footer{
+    width: 99%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.column-footer{
+    margin: 0 10px;
+}
+
+.footer-left, .footer-central, .footer-right{
+    font-size: 20px;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.footer-central{
+justify-content: space-around;
+}
+
+
+.footer-right{
+    color: red;
+    background-color: grey;
+}
+
+
+li{
+    list-style-type: none; 
+}
+
+#icon-footer{
+    font-size: 35px;
+    padding: 5px;
+}
+
+#icon-descript{
+    font-size: 10px;
+}
+
+#angleup{
+    padding: 8px;
+    font-size: 10px;
+}
+
+#icon-footer-green{
+    font-size: 35px;
+    padding: 5px;
+    color: #06db09;
+}
+
+#icon-descript-end{
+    font-size: 15px;
 }
